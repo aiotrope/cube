@@ -47,7 +47,7 @@ $ minikube service hello-minikube-app-service --url
 $ kubectl delete -f kubernetes/hello-minikube-app-service.yaml && kubectl delete -f kubernetes/hello-minikube-app-deployment.yaml 
 
 # delete minikube
-$ minikube minikube
+$ minikube delete
 
 # clean slate
 $ minikube delete && docker system prune -a && docker images prune -a && && docker volume prune -a
